@@ -2,7 +2,7 @@
 
 ##############################
 # check if installation is already done in user's dir
-USER_DIR=/home/scratch/$USER/anaconda3
+USER_DIR=/home/$USER/anaconda3
 if [ -d $USER_DIR ] ; then
     echo You already have a directory called $USER_DIR
     echo You have either already installed it, or you can remove this
